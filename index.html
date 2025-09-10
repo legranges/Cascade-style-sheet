@@ -1,14 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>css implementation</title>
-    <link"stylesheet" href="./style.css">
-   </head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Selectors Practice</title>
+  <!-- Link external CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
-      <p>
-        this is inline css
-      </p>
+  <h1 id="main-title">Welcome to CSS Selector Practice</h1>
+  <p class="intro">This is an introduction paragraph.</p>
+  <p>This is a normal paragraph without any class or id.</p>
+
+  <div class="container">
+    <h2 class="section-title">Section One</h2>
+    <p class="highlight">This paragraph has a <span class="special">special span</span> inside.</p>
+    <p id="unique">This paragraph has an ID.</p>
+    <a href="https://google.com">Google Link</a>
+    <a href="#">Empty Link</a>
+  </div>
+
+  <div class="container">
+    <h2 class="section-title">Section Two</h2>
+    <ul>
+      <li>First item</li>
+      <li class="highlight">Second item</li>
+      <li>Third item</li>
+      <li class="special">Fourth item</li>
+    </ul>
+  </div>
+
+  <footer>
+    <p class="footer-text">This is the footer text.</p>
+  </footer>
 </body>
 </html>

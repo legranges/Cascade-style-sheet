@@ -1,3 +1,29 @@
+
+body{
+    font-size: 25px;
+    
+}
+
 p{
+ color: blueviolet;
+}
+
+h1, h2{
     color:red;
+}
+
+*{
+    font-family: monospace;
+    font-weight: 300;
+}
+
+
+.container{
+
+    color: antiquewhite;
+}
+
+
+#unique{
+    font-style: italic;
 }
