@@ -1,0 +1,18 @@
+/* 1. Descendant (space) */
+div p {
+    color:red;
+}
+
+/* 2. Child (>) */
+div > p{
+    color: aquamarine;
+
+}
+
+h2 + p{
+    background: yellow;
+}
+
+h2 ~ p {
+  font-style: italic;
+}
