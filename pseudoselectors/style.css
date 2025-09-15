@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container ul{
+    list-style: none;
+    border: 1px solid black;
+    width: 90%;
+    border-radius: 10px;
+    height: 280px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(179, 185, 191);
+}
+
+.container ul li{
+    height: 60px;
+    width: 60px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+
+.container ul li:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 100px;
+    width: 100px;
+}
