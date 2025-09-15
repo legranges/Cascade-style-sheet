@@ -1,0 +1,31 @@
+/* *{
+    font-style: oblique;
+}
+
+.alpha{
+    color: aqua;
+}
+
+
+.beta{
+
+    color: blue;
+}
+
+
+h1, h2, h3{
+    color: blueviolet;
+}
+
+
+#gamma{
+    color: brown;
+} */
+
+
+/* advance selectors starts from here */
+
+
+div ~ p {
+    color: aqua;
+}
