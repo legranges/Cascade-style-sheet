@@ -1,0 +1,14 @@
+div{
+    width: 600px;
+    height: 600px;
+    margin: 20px;
+    border: 1px solid black;
+    background-color: aqua;
+    background-image:url(https://images.pexels.com/photos/29767372/pexels-photo-29767372/free-photo-of-winter-snowboarding-adventure-in-frozen-forest.jpeg?auto=compress&cs=tinysrgb&w=300&loading=lazy);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-attachment: fixed;
+    background-clip: padding-box;
+    
+}

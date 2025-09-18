@@ -1,0 +1,14 @@
+.box{
+    display: flex;
+    width: 200px;
+    height: 250px;
+    background-color: blue;
+    text-align: center;
+    justify-content: center;
+}
+
+.box1{
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px 20px;
+}

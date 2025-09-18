@@ -1,0 +1,32 @@
+div{
+    margin: 40px;
+    border: 2px solid black;
+    border-color: aqua;
+    padding: ;
+    text-align: center;
+}
+
+#container1{
+    padding: 40px 200px 20px 40px;
+    height: 600px;
+    background-size: contain;
+    background-size: cover;
+    background-position: left;
+    background-size: cover;
+    background-attachment: scroll;
+
+    background-image: url("https://images.pexels.com/photos/29767372/pexels-photo-29767372/free-photo-of-winter-snowboarding-adventure-in-frozen-forest.jpeg?auto=compress&cs=tinysrgb&w=300&loading=lazy");
+
+}
+
+
+#container2{
+    padding: 20px 20px 10px 10px;
+    background-color: blueviolet;
+}
+
+
+#container3{
+    padding: 20px 30px 10px 0px;
+    background-color: pink;
+}
